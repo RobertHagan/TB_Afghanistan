@@ -1,0 +1,79 @@
+# git notes
+# git notes
+
+http://git-scm.com/
+
+git help
+git help config
+
+git config --global user.name "Robert Hagan"
+git config --global user.email RobertHagan@gmail.com
+git config --global color.ui true
+git 
+
+
+gnit init # in the directory where we want to set up
+
+git status
+
+gig add readme.txt
+git commit -m "Create a Readme."
+git add newfile.txt
+git commit -m "add new files"
+git log
+git add --all
+git add *.txt
+git add docs/*txt
+git add docs/
+git add list of files
+git add "*.txt" # will add all txt files in the directory 
+
+
+git clone https://github.com/RobertHagan/TB_Afghanistan
+
+git status
+git add text.txt
+
+git diff
+git diff --staged
+git diff --cached
+git commit
+git commit -a -m "second try for such and such documents"Ro
+
+git rm filenametoberemoved.txt
+or 
+git rm --cached filenametoberemoved.txt
+or
+ git rm \*~
+#This command removes all files that end with ~.
+# to rename a file use mv or the move command
+git mv fileold filenew
+git log 
+git log -p -2 # for short details
+git log --stat # for quick status report
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --pretty=format:"%h %s" --graph
+git reset HEAD CONTRIBUTING.md
+git checkout -- CONTRIBUTING.md
+git commit --amend
+git remote -v
+git remote add githubTB https://github.com/RobertHagan/TB_Afghanistan
+git fetch githubTB # as a shortcut for the URL
+git push origin master
+git remote show origin
+git remote rename pb paul
+git remote # to get the short name of origin
+git tag -a v0.1 -m "start up version"
+git show v0.1
+git log --pretty=oneline  # very useful
+git push origin v0.1
+git last
+
+
+
+
+
+
+git checkout unicorns
+git rebase master
+
