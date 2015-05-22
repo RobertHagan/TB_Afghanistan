@@ -1,5 +1,5 @@
 # Thursday evdning
-# more changes at 9:10 P.M
+# more changes at 9:30 P.M
 # You can find out more about building applications with Shiny here:
 #
 # http://shiny.rstudio.com
