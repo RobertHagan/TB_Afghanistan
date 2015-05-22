@@ -1,5 +1,4 @@
-# test interface for new github file
-# This is the user-interface definition of a Shiny web application.
+# Thursday evdning
 # You can find out more about building applications with Shiny here:
 #
 # http://shiny.rstudio.com
