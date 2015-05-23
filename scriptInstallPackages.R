@@ -1,5 +1,5 @@
 # script to download essential files
-#saved from ubuntu
+#saved from ubuntu on github Saturday 7:05
 #https://plus.google.com/u/0/+karimmezhoud_tn/posts/G9JLRnuwwem?cfem=1
 
 install.packages("glmmet")

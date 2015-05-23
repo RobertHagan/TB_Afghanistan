@@ -1,4 +1,4 @@
-# git notes
+# git notes on github Saturday 7:06
 try giggle, gitg, 
 # git notes
 ################### note we must use git push from the working directory to push items to github after we commit them on RStudio
