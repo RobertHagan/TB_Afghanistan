@@ -1,5 +1,7 @@
-# git notes at 930
 # git notes
+try giggle, gitg, 
+# git notes
+################### note we must use git push from the working directory to push items to github after we commit them on RStudio
 
 http://git-scm.com/
 
