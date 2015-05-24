@@ -18,8 +18,10 @@
 
 require(visNetwork, quietly = TRUE)
 # minimal example
-nodes <- data.frame(id = 1:3)
-edges <- data.frame(from = c(1,2), to = c(1,3))
+#nodes <- data.frame(id = 1:3)
+nodes <- data.frame(id = 1: 6)
+#edges <- data.frame(from = c(1,2), to = c(1,3))
+edges <- data.frame(from = c(1,2,3,4), to = c(1,3,4,6))
 visNetwork(nodes, edges, width = "100%")
 #
 #More variables
@@ -76,6 +78,7 @@ visNetwork(nodes, edges, width = "100%") %>% visOptions(highlightNearest = TRUE)
 
 #Add legend on groups
 visNetwork(nodes, edges, width = "100%",  legend = TRUE)
+
 
 #Select by node id
 visNetwork(nodes, edges, width = "100%") %>% visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
